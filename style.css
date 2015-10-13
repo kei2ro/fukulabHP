@@ -2,6 +2,60 @@ footer {
   background: #3498db;
 }
 
+#wrapper{
+  background-color: #ffffcc;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+header{
+  width:100%;
+  height:auto;
+  max-width: 100%;
+  min-width: 50%;
+  float:left;
+  background-color: #4aa3df;
+}
+
+header #logo{
+  float:left;
+  padding: 7px 7px 7px 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: auto;
+}
+header #menu{
+  float:right;
+  width: 50%;
+  height: ;
+}
+#menu ul{
+  width:50%;
+  height:40px;
+}
+#menu li{
+  list-style-type: none;
+  display: inline;
+  float:left;
+}
+#menu li a{
+  display: block;
+  background-color: #ccc;
+  border: 1px solid #666;
+  padding: 7px 0px 0px 0px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+}
+#menu li a:hover{
+  background-color: #0000cc;
+  color: #fff;
+}
+
+
 .footer-contents {
   width: 100%;
   height: 330px;
