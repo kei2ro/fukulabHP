@@ -4,7 +4,8 @@ footer {
 
 #wrapper{
   background-color: #ffffcc;
-  width: 100%;
+  width: 1080px;
+  /*width: 100%;*/
   height: 100%;
   margin: 0 auto;
 }
@@ -28,11 +29,11 @@ header #logo{
 header #menu{
   float:right;
   width: 50%;
-  height: ;
+  height: 100%;
 }
 #menu ul{
   width:50%;
-  height:40px;
+  height:100%;
 }
 #menu li{
   list-style-type: none;
@@ -41,30 +42,30 @@ header #menu{
 }
 #menu li a{
   display: block;
-  background-color: #ccc;
-  border: 1px solid #666;
-  padding: 7px 0px 0px 0px;
+  background-color: #3498db;
+  padding: 15px 0px 0px 0px;
   width: 100px;
-  height: 30px;
+  height: 52px;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
+  color: #fff;
   text-decoration: none;
 }
 #menu li a:hover{
-  background-color: #0000cc;
-  color: #fff;
+  background-color: #3498db;
+  color: #ccc;
 }
 
 
 .footer-contents {
   width: 100%;
-  height: 330px;
+  height: 280px;
 }
 .footer-center-box {
   margin: 25px 0px;
   float: left;
   width: 33%;
-  height: 250px;
+  height: 200px;
   border-left: solid 1px #fff;
   border-right: solid 1px #fff;
 }
@@ -77,11 +78,13 @@ header #menu{
 }
 
 .footer-box h2 {
+  color: white;
   text-align: center;
   font-size: 20px;
 }
 
 .footer-center-box h2 {
+  color: white;
   text-align: center;
   font-size: 20px;
 }
@@ -91,6 +94,6 @@ header #menu{
   height: 30px;
   clear: both;
   text-align: center;
-  border-top: solid 1px #fff;
+  color: white;
   background: #3498db;
 }
