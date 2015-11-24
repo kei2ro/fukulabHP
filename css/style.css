@@ -1,0 +1,99 @@
+footer {
+  background: #3498db;
+}
+
+#wrapper{
+  background-color: #ffffcc;
+  width: 1080px;
+  /*width: 100%;*/
+  height: 100%;
+  margin: 0 auto;
+}
+header{
+  width:100%;
+  height:auto;
+  max-width: 100%;
+  min-width: 50%;
+  float:left;
+  background-color: #4aa3df;
+}
+
+header #logo{
+  float:left;
+  padding: 7px 7px 7px 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: auto;
+}
+header #menu{
+  float:right;
+  width: 50%;
+  height: 100%;
+}
+#menu ul{
+  width:50%;
+  height:100%;
+}
+#menu li{
+  list-style-type: none;
+  display: inline;
+  float:left;
+}
+#menu li a{
+  display: block;
+  background-color: #3498db;
+  padding: 15px 0px 0px 0px;
+  width: 100px;
+  height: 52px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#menu li a:hover{
+  background-color: #3498db;
+  color: #ccc;
+}
+
+
+.footer-contents {
+  width: 100%;
+  height: 280px;
+}
+.footer-center-box {
+  margin: 25px 0px;
+  float: left;
+  width: 33%;
+  height: 200px;
+  border-left: solid 1px #fff;
+  border-right: solid 1px #fff;
+}
+
+.footer-box {
+  margin: 25px 0px;
+  float: left;
+  width: 33%;
+  height: 200px;
+}
+
+.footer-box h2 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer-center-box h2 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+#copyright {
+  width: 100%;
+  height: 30px;
+  clear: both;
+  text-align: center;
+  color: white;
+  background: #3498db;
+}
