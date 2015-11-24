@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="logo">
+          <img border="0" src="./fukulab.png" alt="kut">
+        </div>
+
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Member</a></li>
+        <li><a href="#">Event</a></li>
+        <li><a href="#">Lecture</a></li>
+      </ul>
+        </header>
+    </div>
+    <div class="container">
+      <div class="col-sm-4 3column-img " style="background:pink;">
+        <img src="./img/img1.jpg" class="img-responsive" alt="画像1">
+      </div>
+      <div class="col-sm-4 3column-img " style="background:skyblue;">
+        <img src="./img/img2.jpg" class="img-responsive 3column-img" alt="画像2">
+      </div>
+      <div class="col-sm-4 3column-img " style="background:yellow">
+        <img src="./img/img3.jpg" class="img-responsive" alt="画像3">
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="footer-contents">
+        <div class="footer-box">
+          <h2>FKUKUMOTO LAB</h2>
+        </div>
+        <div class="footer-center-box">
+          <h2>ACCESS</h2>
+        </div>
+        <div class="footer-box">
+          <h2>CONTACT</h2>
+        </div>
+        <div id="copyright">
+          <h2> Copyright © 2015 Fukumoto Lab.</h2>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ここから↓のスクリプトは#17で追加したもの -->
+    <script>$(function() {
+      $("[data-toggle=tooltip]").tooltip({
+        placement: 'bottom'
+      });
+      $("[data-toggle=popover]").popover();
+    });
+    </script>
+  </body>
+</html>
